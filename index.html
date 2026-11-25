@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Syrine Ferjani | PhD Candidate, Computational Intelligence &amp; ESG Analytics</title>
+<meta name="description" content="Syrine Ferjani, PhD candidate in Management Information Systems researching computational intelligence for ESG analytics, and computer science instructor in Tunis.">
+<meta property="og:title" content="Syrine Ferjani | Computational Intelligence &amp; ESG Analytics">
+<meta property="og:description" content="PhD candidate and computer science instructor. Research on deep learning, optimization and sustainable finance.">
+<meta property="og:image" content="assets/profile.jpg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="progress-bar-top" id="progress"></div>
+
+<!-- NAV -->
+<nav class="site-nav" id="siteNav">
+  <div class="container nav-inner">
+    <a href="#top" class="brand" aria-label="Home">SF</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#research" class="nav-link">Research</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="pill pill--nav">Contact me</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-field" aria-hidden="true">
+    <div class="blob blob--rose"></div>
+    <div class="blob blob--sand"></div>
+    <svg viewBox="0 0 1000 360" width="100%" height="100%" preserveAspectRatio="none" class="hero-chart">
+      <path class="chart-band" d="M0,220 C 120,150 220,260 340,190 C 460,120 560,230 680,150 C 800,80 900,170 1000,110 L1000,360 L0,360 Z"/>
+      <path class="chart-line" d="M0,220 C 120,150 220,260 340,190 C 460,120 560,230 680,150 C 800,80 900,170 1000,110"/>
+      <circle class="chart-dot" cx="340" cy="190" r="4"/>
+      <circle class="chart-dot" cx="680" cy="150" r="4"/>
+      <circle class="chart-dot chart-dot--last" cx="1000" cy="110" r="5"/>
+    </svg>
+  </div>
+
+  <div class="container hero-inner">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-7 hero-copy order-2 order-lg-1">
+        <p class="label hero-in" style="--d:.05s">Ben Arous &middot; Tunisia</p>
+        <h1 class="hero-name hero-in" style="--d:.15s">Syrine <em>Ferjani</em></h1>
+        <p class="hero-role hero-in" style="--d:.3s">PhD candidate in Management Information Systems, researching <em class="rotator" id="rotator">computational intelligence</em> for ESG analytics.</p>
+        <p class="hero-sub hero-in" style="--d:.4s">I also teach algorithms, databases and web development.</p>
+        <div class="hero-actions hero-in" style="--d:.52s">
+          <a href="#research" class="pill pill--light">Discover the research <i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="assets/Syrine-Ferjani-CV.pdf" class="pill pill--ghost" download>Download CV</a>
+        </div>
+        <ul class="social-row hero-in" style="--d:.64s">
+          <li><a href="https://www.linkedin.com/in/cyrine-ferjani/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="https://www.researchgate.net/profile/Syrine-Ferjani" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fa-brands fa-researchgate"></i></a></li>
+          <li><a href="https://orcid.org/0009-0003-1516-9466" target="_blank" rel="noopener" aria-label="ORCID"><i class="fa-brands fa-orcid"></i></a></li>
+          <li><a href="https://github.com/syrineferjani" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="mailto:syrineferjani.dev@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-5 order-1 order-lg-2 hero-portrait hero-in" style="--d:.25s">
+        <div class="portrait-stage">
+          <div class="ring ring--dash"></div>
+          <div class="ring ring--solid"></div>
+          <div class="portrait-arch"></div>
+          <img src="assets/profile-cutout.png" alt="Portrait of Syrine Ferjani" class="portrait-img">
+          <span class="chip chip--a">LSTM</span>
+          <span class="chip chip--b">ESG</span>
+          <span class="chip chip--c">Optimization</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="defense-note">Defending soon &middot; ISG Tunis</p>
+</header>
+
+<main>
+
+<!-- QUOTE -->
+<section class="quote-band">
+  <div class="container rv">
+    <p class="quote">Where artificial intelligence meets <em>sustainable finance</em>, and research finds its way back to the classroom.</p>
+    <p class="label label--muted">The idea behind the work</p>
+  </div>
+</section>
+
+<!-- PHOTO STRIP -->
+<section class="strip" aria-label="Moments from the classroom and the lab">
+  <div class="strip-track" id="stripTrack">
+    <button class="strip-item strip-item--wide" data-full="assets/photos/smartlab-group.jpg" data-caption="SMART Lab Research Days, ALECSO, April 2026"><img src="assets/photos/smartlab-group.jpg" alt="SMART Lab Research Days group photo" loading="lazy"></button>
+    <button class="strip-item" data-full="assets/photos/graduation-2.jpg" data-caption="Graduation day, INT"><img src="assets/photos/graduation-2.jpg" alt="Graduation day at INT" loading="lazy"></button>
+    <button class="strip-item" data-full="assets/photos/hackathon-certificate.jpg" data-caption="Certificate of Judge, INT Hackathon 2025"><img src="assets/photos/hackathon-certificate.jpg" alt="Certificate of Judge, INT Hackathon 2025" loading="lazy"></button>
+    <button class="strip-item strip-item--wide" data-full="assets/photos/smartlab-hall.jpg" data-caption="Conference hall, SMART Lab Research Days"><img src="assets/photos/smartlab-hall.jpg" alt="Conference hall" loading="lazy"></button>
+    <button class="strip-item strip-item--wide" data-full="assets/photos/graduation-3.jpg" data-caption="Graduation day, INT"><img src="assets/photos/graduation-3.jpg" alt="Graduation day at INT" loading="lazy"></button>
+    <button class="strip-item" data-full="assets/photos/hackathon-1.jpg" data-caption="INT Hackathon 2025"><img src="assets/photos/hackathon-1.jpg" alt="INT Hackathon 2025" loading="lazy"></button>
+    <button class="strip-item strip-item--wide" data-full="assets/photos/smartlab-welcome.jpg" data-caption="SMART Lab Research Days, 16-17 April 2026"><img src="assets/photos/smartlab-welcome.jpg" alt="SMART Lab Research Days welcome screen" loading="lazy"></button>
+    <button class="strip-item" data-full="assets/photos/graduation-1.jpg" data-caption="Graduation day, INT"><img src="assets/photos/graduation-1.jpg" alt="Graduation day at INT" loading="lazy"></button>
+    <button class="strip-item" data-full="assets/photos/smartlab-badge.jpg" data-caption="SMART Lab Research Days badge"><img src="assets/photos/smartlab-badge.jpg" alt="SMART Lab Research Days badge" loading="lazy"></button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section section--dark" id="about">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6 rv">
+        <p class="label">Meet the researcher</p>
+        <p class="about-text">Salam, I'm Syrine, a PhD candidate at the SMART Lab of the Institut Supérieur de Gestion de Tunis. I build deep learning and optimization models for environmental, social and governance data, so that sustainable investment decisions rest on signals people can trust.</p>
+        <p class="about-text">My work forecasts ESG volatility, reconciles the disagreement between rating agencies, and predicts governance controversies before they surface. Alongside the PhD, I teach computer science: algorithms, programming, databases and web development. The classroom keeps my research honest, and the research keeps my teaching curious.</p>
+        <a href="assets/Syrine-Ferjani-CV.pdf" class="pill pill--ghost" download>Download my CV</a>
+      </div>
+      <div class="col-lg-6 rv" style="--d:.15s">
+        <div class="polaroid-wrap">
+          <div class="polaroid">
+            <span class="tape"></span>
+            <img src="assets/profile.jpg" alt="Syrine Ferjani" loading="lazy">
+          </div>
+          <span class="signature">Syrine</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row stats rv gy-4">
+      <div class="col-6 col-md-3"><span class="stat-num" data-count="3">0</span><span class="stat-label">Publications</span></div>
+      <div class="col-6 col-md-3"><span class="stat-num" data-count="2">0</span><span class="stat-label">Teaching institutions</span></div>
+      <div class="col-6 col-md-3"><span class="stat-num" data-count="4">0</span><span class="stat-label">Certifications</span></div>
+      <div class="col-6 col-md-3"><span class="stat-num" data-count="3">0</span><span class="stat-label">Languages spoken</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOCUS -->
+<section class="section">
+  <div class="container">
+    <h2 class="display rv">What I <em>work on</em></h2>
+    <div class="row g-3 g-lg-4">
+      <div class="col-6 col-lg-3 rv" style="--d:0s"><article class="focus-card focus-card--1"><span class="focus-num">01</span><i class="fa-solid fa-brain focus-icon"></i><h3>Computational Intelligence</h3><p class="label">The method</p></article></div>
+      <div class="col-6 col-lg-3 rv" style="--d:.1s"><article class="focus-card focus-card--2"><span class="focus-num">02</span><i class="fa-solid fa-seedling focus-icon"></i><h3>Sustainable Finance</h3><p class="label">The question</p></article></div>
+      <div class="col-6 col-lg-3 rv" style="--d:.2s"><article class="focus-card focus-card--3"><span class="focus-num">03</span><i class="fa-solid fa-dna focus-icon"></i><h3>Optimization</h3><p class="label">The engine</p></article></div>
+      <div class="col-6 col-lg-3 rv" style="--d:.3s"><article class="focus-card focus-card--4"><span class="focus-num">04</span><i class="fa-solid fa-chalkboard-user focus-icon"></i><h3>Teaching</h3><p class="label">The sharing</p></article></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section section--sand" id="experience">
+  <div class="container">
+    <h2 class="display rv">Teaching &amp; <em>experience</em></h2>
+    <ol class="timeline">
+      <li class="timeline-item rv">
+        <div class="timeline-date">2026 &ndash; present</div>
+        <div class="timeline-content">
+          <h3>Adjunct Instructor, Databases (Tutorials)</h3>
+          <p class="timeline-org">IHEC Carthage</p>
+          <p>Starting shortly: leading tutorial sessions in database design and SQL for undergraduate students.</p>
+        </div>
+      </li>
+      <li class="timeline-item rv">
+        <div class="timeline-date">2024 &ndash; present</div>
+        <div class="timeline-content">
+          <h3>Adjunct Computer Science Instructor</h3>
+          <p class="timeline-org">Institut des Nouvelles Technologies (INT)</p>
+          <p>Teaching algorithms, programming (Python, C, C++, Java), object-oriented programming, web development, database design and operating systems. Supervising final-year projects, and serving on hackathon and defense juries, including as a judge at the INT Hackathon 2025.</p>
+        </div>
+      </li>
+      <li class="timeline-item rv">
+        <div class="timeline-date">2022</div>
+        <div class="timeline-content">
+          <h3>Web Developer, Laravel</h3>
+          <p class="timeline-org">Office de Commerce de Tunis &middot; Internship</p>
+          <p>Built CRUD workflows and a customized admin dashboard with Laravel and Voyager, following MVC architecture.</p>
+        </div>
+      </li>
+      <li class="timeline-item rv">
+        <div class="timeline-date">2021</div>
+        <div class="timeline-content">
+          <h3>Frontend Web Developer / Designer</h3>
+          <p class="timeline-org">Mweb Digital &middot; Freelance</p>
+          <p>Designed application flows in UML and interfaces in Figma, then built them with React and CSS.</p>
+        </div>
+      </li>
+      <li class="timeline-item rv">
+        <div class="timeline-date">2020 &ndash; 2021</div>
+        <div class="timeline-content">
+          <h3>Web Developer, MERN Stack</h3>
+          <p class="timeline-org">RMG Agency</p>
+          <p>Modeled schemas in MongoDB, built RESTful APIs in Node.js, and consumed them from React and React Native clients.</p>
+        </div>
+      </li>
+      <li class="timeline-item rv">
+        <div class="timeline-date">2020</div>
+        <div class="timeline-content">
+          <h3>Fullstack Web Developer</h3>
+          <p class="timeline-org">FormEvo &middot; Internship</p>
+          <p>Modeled data in MongoDB and built the FormEvo course platform end to end, from REST APIs to the student-facing interface.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section class="section" id="research">
+  <div class="container">
+    <h2 class="display rv">Selected <em>publications</em></h2>
+    <p class="section-intro rv">Three papers so far: ESG governance prediction, electric vehicle energy forecasting and ESG volatility, all built on deep learning and optimization.</p>
+
+    <div class="pub rv">
+      <a class="pub-cover" href="https://link.springer.com/article/10.1007/s10614-025-11260-0" target="_blank" rel="noopener"><img src="assets/covers/comp-econ.jpg" alt="Computational Economics journal cover" loading="lazy"></a>
+      <div class="pub-body">
+        <p class="label label--rose">Computational Economics &middot; Springer &middot; 2026</p>
+        <h3>Reconciling Divergence Among ESG Scores: A Bi-level Artificial Intelligence Based Methodology for Corporate Governance Controversies Prediction</h3>
+        <p class="pub-authors">Jlifi, B., Diaye, M.-A., Guesmi, K., Hamdi, N., <strong>Ferjani, S.</strong></p>
+        <a href="https://link.springer.com/article/10.1007/s10614-025-11260-0" target="_blank" rel="noopener" class="pill pill--dark">Read the paper <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+
+    <div class="pub rv">
+      <a class="pub-cover" href="https://www.sciencedirect.com/science/article/abs/pii/S0045790625001284" target="_blank" rel="noopener"><img src="assets/covers/cee.jpg" alt="Computers and Electrical Engineering journal cover" loading="lazy"></a>
+      <div class="pub-body">
+        <p class="label label--rose">Computers &amp; Electrical Engineering &middot; Elsevier &middot; 2025</p>
+        <h3>A Genetic Algorithm Based Three-Hyperparameter Optimization of Deep LSTM (GA3P&#8209;DLSTM) for Predicting Electric Vehicle Energy Consumption</h3>
+        <p class="pub-authors">Jlifi, B., <strong>Ferjani, S.</strong>, Duvallet, C.</p>
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0045790625001284" target="_blank" rel="noopener" class="pill pill--dark">Read the paper <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+
+    <div class="pub rv">
+      <a class="pub-cover pub-cover--logo" href="https://ieeexplore.ieee.org/document/11631169/" target="_blank" rel="noopener"><img src="assets/covers/codit.jpg" alt="IEEE CoDIT 2026 logo" loading="lazy"></a>
+      <div class="pub-body">
+        <p class="label label--rose">IEEE CoDIT 2026 &middot; Bari, Italy</p>
+        <h3>ESG Volatility Forecasting Using LSTM Networks and Hyperparameter Optimization Techniques</h3>
+        <p class="pub-authors"><strong>Ferjani, S.</strong>, Jlifi, B., Ben Said, L., Guesmi, K.</p>
+        <p class="pub-note">Presented at the 12th IEEE International Conference on Control, Decision and Information Technologies.</p>
+        <a href="https://ieeexplore.ieee.org/document/11631169/" target="_blank" rel="noopener" class="pill pill--dark">Read the paper <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+
+    <div class="profile-links rv">
+      <span class="label label--muted">More on</span>
+      <a href="https://www.researchgate.net/profile/Syrine-Ferjani" target="_blank" rel="noopener"><i class="fa-brands fa-researchgate"></i> ResearchGate</a>
+      <a href="https://orcid.org/0009-0003-1516-9466" target="_blank" rel="noopener"><i class="fa-brands fa-orcid"></i> ORCID</a>
+      <a href="https://github.com/syrineferjani" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section section--sand" id="education">
+  <div class="container">
+    <h2 class="display rv">Education &amp; <em>certifications</em></h2>
+
+    <div class="row g-3 g-lg-4 edu-row">
+      <div class="col-md-4 rv" style="--d:0s">
+        <article class="edu-card">
+          <div class="edu-logo"><img src="assets/logos/isg-tunis.png" alt="ISG Tunis logo" loading="lazy"></div>
+          <p class="label label--rose">2024 &ndash; 2027</p>
+          <h3>PhD in Management Information Systems</h3>
+          <p>Institut Supérieur de Gestion de Tunis, SMART Lab</p>
+        </article>
+      </div>
+      <div class="col-md-4 rv" style="--d:.1s">
+        <article class="edu-card">
+          <div class="edu-logo"><img src="assets/logos/esc-tunis.png" alt="ESC Tunis logo" loading="lazy"></div>
+          <p class="label label--rose">2021 &ndash; 2023</p>
+          <h3>Research Master's in Decision-Making &amp; Intelligent Computing Applied to Management</h3>
+          <p>ESC Tunis &middot; Mention Très Bien</p>
+        </article>
+      </div>
+      <div class="col-md-4 rv" style="--d:.2s">
+        <article class="edu-card">
+          <div class="edu-logo"><img src="assets/logos/isamm.png" alt="ISAMM logo" loading="lazy"></div>
+          <p class="label label--rose">2016 &ndash; 2020</p>
+          <h3>Bachelor's in Computer Science &amp; Multimedia</h3>
+          <p>Institut Supérieur des Arts Multimédia de la Manouba &middot; Mention Bien</p>
+        </article>
+      </div>
+    </div>
+
+    <h3 class="sub-display rv">Certifications</h3>
+    <div class="row g-3 g-lg-4">
+      <div class="col-md-6 col-lg-3 rv" style="--d:0s">
+        <article class="cert-card">
+          <button class="cert-thumb" data-full="assets/certs/google.jpg" data-caption="Google Data Analytics Professional Certificate, June 2022"><img src="assets/certs/google.jpg" alt="Google Data Analytics certificate" loading="lazy"></button>
+          <h4>Google Data Analytics Professional Certificate</h4>
+          <a href="https://coursera.org/verify/professional-cert/PD7AC73SSRJB" target="_blank" rel="noopener" class="cert-link">Verify on Coursera <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3 rv" style="--d:.1s">
+        <article class="cert-card">
+          <button class="cert-thumb" data-full="assets/certs/deeplearning.jpg" data-caption="Supervised Machine Learning, DeepLearning.AI &amp; Stanford Online, January 2023"><img src="assets/certs/deeplearning.jpg" alt="Supervised Machine Learning certificate" loading="lazy"></button>
+          <h4>Supervised Machine Learning: Regression and Classification</h4>
+          <a href="https://coursera.org/verify/DAPBXBTQFGJA" target="_blank" rel="noopener" class="cert-link">Verify on Coursera <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3 rv" style="--d:.2s">
+        <article class="cert-card cert-card--badge">
+          <div class="cert-badge"><i class="fa-solid fa-award"></i></div>
+          <h4>Big Data with Spark and Hadoop Essentials</h4>
+          <p class="cert-issuer">IBM Skills Network</p>
+          <a href="https://www.credly.com/badges/986a0a9d-ad07-4c7e-8313-f1d4658bcf18/linked_in_profile" target="_blank" rel="noopener" class="cert-link">View badge on Credly <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3 rv" style="--d:.3s">
+        <article class="cert-card cert-card--badge">
+          <div class="cert-badge"><i class="fa-solid fa-award"></i></div>
+          <h4>Data Science Foundations</h4>
+          <p class="cert-issuer">Great Learning</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="container">
+    <h2 class="display rv">Skills &amp; <em>tools</em></h2>
+    <div class="row gy-5 gx-5">
+      <div class="col-md-6 skill-group rv"><h3>Artificial intelligence</h3><div class="pills"><span>Machine learning</span><span>Deep learning</span><span>Neural networks</span><span>LSTM</span><span>XGBoost</span><span>LightGBM</span></div></div>
+      <div class="col-md-6 skill-group rv"><h3>Data science</h3><div class="pills"><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>TensorFlow</span><span>Keras</span><span>Time-series forecasting</span></div></div>
+      <div class="col-md-6 skill-group rv"><h3>Optimization</h3><div class="pills"><span>Genetic algorithms</span><span>Metaheuristics</span><span>Multi-objective optimization</span><span>Feature selection</span></div></div>
+      <div class="col-md-6 skill-group rv"><h3>Programming</h3><div class="pills"><span>Python</span><span>C</span><span>C++</span><span>Java</span><span>PHP</span><span>JavaScript</span></div></div>
+      <div class="col-md-6 skill-group rv"><h3>Web development</h3><div class="pills"><span>HTML5</span><span>CSS3</span><span>React.js</span><span>Node.js</span><span>Bootstrap</span></div></div>
+      <div class="col-md-6 skill-group rv"><h3>Databases</h3><div class="pills"><span>SQL</span><span>MySQL</span><span>MongoDB</span><span>UML / Merise</span></div></div>
+      <div class="col-md-6 skill-group rv"><h3>Scientific tools</h3><div class="pills"><span>Jupyter</span><span>Google Colab</span><span>LaTeX</span><span>VOSviewer</span></div></div>
+      <div class="col-md-6 skill-group rv"><h3>Languages</h3><div class="pills"><span>Arabic, native</span><span>French, fluent</span><span>English, professional</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- KIND WORDS -->
+<section class="section section--dark kind-words">
+  <div class="container rv">
+    <p class="script-label">Kind words</p>
+    <blockquote class="kind-quote">I had the pleasure to work with Cyrine on the same project where I had the opportunity to learn from her different skills and competences. She was always available to help, to share great ideas and resolve issues.</blockquote>
+    <p class="kind-author">Sarra Jalleli <span>&middot; colleague, via LinkedIn</span></p>
+  </div>
+</section>
+
+</main>
+
+<!-- CONTACT -->
+<footer class="contact" id="contact">
+  <div class="container contact-inner rv">
+    <p class="label label--muted">Let's connect</p>
+    <h2 class="contact-title">Let's collaborate on something <span class="script">meaningful</span></h2>
+    <p class="contact-sub">Research collaborations, teaching opportunities, or a question about the work above: my inbox is open.</p>
+    <a href="mailto:syrineferjani.dev@gmail.com" class="pill pill--dark pill--lg">syrineferjani.dev@gmail.com</a>
+    <div class="contact-meta">
+      <span><i class="fa-solid fa-phone"></i> +216 93 206 897</span>
+      <span><i class="fa-solid fa-location-dot"></i> Tunis, Tunisia</span>
+    </div>
+    <ul class="social-row social-row--footer">
+      <li><a href="https://www.linkedin.com/in/cyrine-ferjani/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      <li><a href="https://www.researchgate.net/profile/Syrine-Ferjani" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fa-brands fa-researchgate"></i></a></li>
+      <li><a href="https://orcid.org/0009-0003-1516-9466" target="_blank" rel="noopener" aria-label="ORCID"><i class="fa-brands fa-orcid"></i></a></li>
+      <li><a href="https://github.com/syrineferjani" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+    </ul>
+    <span class="footer-mark">SF</span>
+    <p class="contact-foot">&copy; <span id="year"></span> Syrine Ferjani</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <figure><img src="" alt="" id="lightboxImg"><figcaption id="lightboxCap"></figcaption></figure>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
